@@ -1,0 +1,30 @@
+{
+  "name": "batch-sample",
+  "version": "1.0.0",
+  "description": "batch application sample code for node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./test/*.*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakai-memoru/batch-sample.git"
+  },
+  "keywords": [
+    "life",
+    "log",
+    "project"
+  ],
+  "author": "sakai.memoru",
+  "license": "MIT",
+  "homepage": "https://github.com/sakai-memoru/batch-sample.git",
+  "dependencies": {
+    "batch": "^0.5.3",
+    "batchflow": "^0.4.0",
+    "co": "^4.6.0",
+    "gulp": "^3.9.1",
+    "gulp-async-tasks": "^1.0.0",
+    "lodash": "^4.17.4"
+  }
+}
